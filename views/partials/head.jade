@@ -1,0 +1,8 @@
+block head
+  head
+    title
+      - if (title)
+        |#{title} | #{settings.site}
+      - else
+        |#{settings.site}
+    link(rel="stylesheet", href="/stylesheets/style.css")

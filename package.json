@@ -12,7 +12,14 @@
   "dependencies": {
     "coffee-script": "*",
     "express": "3.0.0rc3",
-    "ejs": "*",
-    "stylus": "*"
+    "jade": "*",
+    "stylus": "*",
+    "bootstrap-stylus": "*",
+    "mongoose": "*",
+    "mongoose-types": "*",
+    "inflect": "*",
+    "underscore": "*",
+    "accounting": "*",
+    "stripe": "*"
   }
 }

@@ -1,0 +1,6 @@
+extend layout
+
+block content
+  ul
+    each tier in subscription.pricing.subscriptionTiers
+      li #{accounting.formatMoney(tier.price)}
